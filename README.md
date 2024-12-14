@@ -4,29 +4,47 @@ This project performs exploratory data analysis (EDA) on a used cars dataset. Th
 ## Project Overview
 The aim of this project is to:
 
-Analyze used car listings to uncover patterns and insights.
-Identify factors influencing car pricing and popularity.
-Visualize key metrics to support data-driven decision-making.
+•	Analyze used car listings to uncover patterns and insights.
+
+•	Identify factors influencing car pricing and popularity.
+
+•	Visualize key metrics to support data-driven decision-making.
+
 
 ## Features Analyzed
   •	Most Popular Car Types: Identifies the top 5 most frequently listed car types.
+  
   •	Distribution by Title Status: Explores how cars are distributed based on their title status.
+  
   •	Trend Over Time: Analyzes how car listings vary over time.
+  
   •	Price Changes by Year: Visualizes average price trends across car manufacturing years.
+  
   •	Most Popular Condition: Highlights the most common car conditions.
+  
   •	Price vs Distance Relationship: Examines the effect of odometer readings on car prices.
+  
   •	Correlation Analysis: Finds correlations between price, mileage, and engine cylinders.
+  
   •	Fuel Type Analysis: Explores how fuel type impacts car pricing.
+  
   •	Manufacturer-Based Pricing: Computes the average price for different car manufacturers.
+  
   •	Distribution of Cars by Cylinders: Visualizes the number of cars by cylinder count.
+  
   •	State-Wise Analysis: Identifies which U.S. states have the most car listings.
+  
   •	Geographic Distribution: Maps car listings based on their location.
 
 ## Tools and Libraries Used
   •	**Python:** Core programming language for data analysis.
+  
   •	**Pandas:** Data manipulation and analysis.
+  
   •	**Matplotlib & Seaborn:** Data visualization.
+  
   •	**NumPy:** Numerical operations.
+  
   •	**Geopandas (optional):** For geographic mapping.
 
 ## Usage
@@ -45,17 +63,23 @@ Visualize key metrics to support data-driven decision-making.
 
 ## Dataset
 The dataset is sourced from 'https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data/data?authuser=0'.
+
 The data includes attributes such as price, mileage, manufacturer, fuel type, location, and more.
 
 ## Key Visualizations
   •	Bar charts for popular car types and manufacturers.
+  
   •	Line charts showing trends in pricing and listings over time.
+  
   •	Scatter plots to examine relationships between price, mileage, and other features.
+  
   •	Geographic maps to visualize the distribution of cars across the U.S.
 
 ## Future Work
   •	Add machine learning models for car price prediction.
+  
   •	Perform deeper analysis of geographic trends using advanced mapping tools.
+  
   •	Automate data cleaning for scalability across other datasets.
 
 ## Contributing
